@@ -3,6 +3,6 @@ export const contactsData = {
     phone: '+2349136151655',
     github: 'https://github.com/mattacedev',
     linkedIn: 'https://www.linkedin.com/in/#/',
-    twitter: 'https://twitter.com/said7388',
+    twitter: 'https://twitter.com/#',
     devusername: "mattacedev"
 }

@@ -87,14 +87,14 @@ function HeroSection() {
             <code className="font-mono text-xs md:text-sm lg:text-base">
               <div className="blink">
                 <span className="mr-2 text-pink-500">const</span>
-                <span className="mr-2 text-white">coder</span>
+                <span className="mr-2 text-white">coder_Profile</span>
                 <span className="mr-2 text-pink-500">=</span>
                 <span className="text-gray-400">{'{'}</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Abu Said</span>
+                <span className="text-amber-300">Matt Acedev</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
@@ -102,21 +102,37 @@ function HeroSection() {
                 <span className="text-gray-400">{`['`}</span>
                 <span className="text-amber-300">React</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NextJS</span>
+                <span className="text-amber-300">React Native</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Next.js</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">Redux</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Express</span>
+                <span className="text-amber-300">Vue.js</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">NestJS</span>
+                <span className="text-amber-300">Node.js</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">MySql</span>
+                <span className="text-amber-300">Express.js</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Fastify.js</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">REST API</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">GraphQL</span>
                 <span className="text-gray-400">{"', '"}</span>
                 <span className="text-amber-300">MongoDB</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">Docker</span>
+                <span className="text-amber-300">JavaScript</span>
                 <span className="text-gray-400">{"', '"}</span>
-                <span className="text-amber-300">AWS</span>
+                <span className="text-amber-300">TypeScript</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Tailwind CSS</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Svelte.js</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Gatsby.js</span>
+                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-amber-300">Docker</span>
                 <span className="text-gray-400">{"'],"}</span>
               </div>
               <div>
