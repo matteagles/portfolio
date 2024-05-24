@@ -177,6 +177,8 @@ export const skillsImage = (skill) => {
       return lightroom;
     case 'materialui':
       return materialui;
+    case 'node js':
+      return nginx;
     case 'nginx':
       return nginx;
     case 'numpy':
