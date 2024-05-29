@@ -7,7 +7,7 @@ export const personalData = {
   phone: '+2349136151655',
   github: 'https://github.com/mattacedev',
   linkedIn: 'https://www.linkedin.com/in/#/',
-  devUsername: "mattacedev",
+  devUsername: "said7388",
   resume: "#",
   address: 'Lagos, Nigeria',
   facebook: '#',
