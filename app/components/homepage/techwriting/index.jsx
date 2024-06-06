@@ -48,8 +48,8 @@ function TechWriting() {
               {
                 techwriting.map(techwriting => {
                   return (
-                    <Link target="_blank" href={`${techwriting.profile}`}>
-                      <GlowCard key={techwriting.id} identifier={`techwriting-${techwriting.id}`}>
+                    <Link key={techwriting.id} target="_blank" href={`${techwriting.profile}`}>
+                      <GlowCard identifier={`techwriting-${techwriting.id}`}>
                         <div className="p-3 relative text-white">
                           <Image
                             src="/blur-23.svg"
