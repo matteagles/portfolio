@@ -12,14 +12,4 @@ async function getBlog(slug) {
   return data;
 };
 
-async function BlogDetails({params}) {
-  const slug = params.slug;
-  const blog = await getBlog(slug);
- 
-  return (
-    <div>
-    </div>
-  );
-};
-
 export default BlogDetails;
