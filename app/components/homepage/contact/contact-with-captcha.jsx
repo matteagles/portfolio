@@ -4,7 +4,7 @@ import { isValidEmail } from '@/utils/check-email';
 import emailjs from '@emailjs/browser';
 import axios from 'axios';
 import { useState } from 'react';
-import ReCAPTCHA from 'react-google-recaptcha';
+// import ReCAPTCHA from 'react-google-recaptcha';
 import { TbMailForward } from "react-icons/tb";
 import { toast } from 'react-toastify';
 
@@ -14,7 +14,7 @@ function ContactWithCaptcha() {
     email: '',
     message: '',
   });
-  const [captcha, setCaptcha] = useState(null);
+  // const [captcha, setCaptcha] = useState(null);
   const [error, setError] = useState({
     email: false,
     required: false,
@@ -27,20 +27,20 @@ function ContactWithCaptcha() {
   };
 
   const handleSendMail = async (e) => {
-    if (!captcha) {
-      toast.error('Please complete the captcha!');
-      return;
-    } else {
-      const res = await axios.post(`${process.env.NEXT_PUBLIC_APP_URL}/api/google`, {
-        token: captcha
-      });
+    // if (!captcha) {
+    //   toast.error('Please complete the captcha!');
+    //   return;
+    // } else {
+    //   const res = await axios.post(`${process.env.NEXT_PUBLIC_APP_URL}/api/google`, {
+    //     token: captcha
+    //   });
 
-      setCaptcha(null);
-      if (!res.data.success) {
-        toast.error('Captcha verification failed!');
-        return;
-      };
-    };
+    //   setCaptcha(null);
+    //   if (!res.data.success) {
+    //     toast.error('Captcha verification failed!');
+    //     return;
+    //   };
+    // };
 
     e.preventDefault();
     if (!input.email || !input.message || !input.name) {
@@ -57,7 +57,7 @@ function ContactWithCaptcha() {
     const options = { publicKey: process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY };
 
     try {
-      const res = await emailjs.send(serviceID, templateID, input, options.publicKey);
+      const res = await emailjs.send(serviceID, templateID, input, options);
 
       if (res.status === 200) {
         toast.success('Message sent successfully!');
@@ -75,11 +75,11 @@ function ContactWithCaptcha() {
   return (
     <div className="">
       <p className="font-medium mb-5 text-[#16f2b3] text-xl uppercase">
-        Contact Me
+        Contact with me
       </p>
       <div className="max-w-3xl text-white rounded-lg border border-[#464c6a] p-3 lg:p-5">
         <p className="text-sm text-[#d3d8e8]">
-          {"Contact me if you have any work opportunities such as Tech Writing, software development jobs or gigs, or mobile development jobs or gigs"}
+          {"If you have any questions or concerns, please don't hesitate to contact me. I am open to any work opportunities that align with my skills and interests."}
         </p>
         <div className="mt-6 flex flex-col gap-4">
           <div className="flex flex-col gap-2">
@@ -127,10 +127,10 @@ function ContactWithCaptcha() {
               value={input.message}
             />
           </div>
-          <ReCAPTCHA
+          {/* <ReCAPTCHA
             sitekey={process.env.NEXT_PUBLIC_RECAPTCHA_SITE_KEY}
             onChange={(code) => setCaptcha(code)}
-          />
+          /> */}
           <div className="flex flex-col items-center gap-2">
             {error.required &&
               <p className="text-sm text-red-400">
