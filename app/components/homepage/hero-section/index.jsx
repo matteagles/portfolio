@@ -29,7 +29,7 @@ function HeroSection() {
             {' '}
             {`I am a Professional `}
             <span className=" text-[#16f2b3]">{personalData.designation}</span>
-            [`and`]<br />
+            {`and`}<br />
             <span className=" text-[#16f2b3]">{personalData.designation2}</span>
             .
           </h1>
