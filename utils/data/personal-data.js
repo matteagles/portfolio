@@ -1,8 +1,8 @@
 export const personalData = {
-  name: "MATTHEW LAWRENCE EAGLES",
+  name: "LAWRENCE EAGLES",
   profile: '/profile.png',
   designation: "Software Developer",
-  description: "Hello, I am Matthew Lawrence Eagles --- a highly skilled software developer, tech writer, and instructor. I have about eight years of experience in software development and I am very skilled in many JavaScript frameworks and libraries that are useful for full-stack and mobile software development. Also, I am good at collaborating and working remotely with other developers in a team. And I have good experience using tools such as Slack, Microsoft Teams, Git & Github, etc.",
+  description: "Hello, I am Lawrence Eagles --- a highly skilled software developer, tech writer, and instructor. I have about eight years of experience in software development and I am very skilled in many JavaScript frameworks and libraries that are useful for full-stack and mobile software development. Also, I am good at collaborating and working remotely with other developers in a team. And I have good experience using tools such as Slack, Microsoft Teams, Git & Github, etc.",
   email: 'code.matt.eagles@gmail.com',
   phone: '+2349136151655',
   github: 'https://github.com/matteagles',
