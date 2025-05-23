@@ -9,7 +9,7 @@ export const personalData = {
   github: 'https://github.com/matteagles',
   linkedIn: 'https://www.linkedin.com/in/matteagles/',
   devUsername: "lawrence_eagles",
-  resume: "https://drive.google.com/file/d/1F0eSRSIhn1p9L49UjFpykLiIiFb5ecbb/view?usp=sharing",
+  resume: "https://drive.google.com/file/d/1Fhsw-vX1VtGqjAzp3CwhrtZcEx2DZoSp/view?usp=sharing",
   address: 'Lagos, Nigeria',
   facebook: '#',
   twitter: '#',
