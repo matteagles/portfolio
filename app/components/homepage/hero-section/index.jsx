@@ -29,6 +29,8 @@ function HeroSection() {
             {' '}
             {`I am a Professional `}
             <span className=" text-[#16f2b3]">{personalData.designation}</span>
+            [`and`]<br />
+            <span className=" text-[#16f2b3]">{personalData.designation2}</span>
             .
           </h1>
 
@@ -96,7 +98,7 @@ function HeroSection() {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-amber-300">Matthew Lawrence Eagles</span>
+                <span className="text-amber-300">Lawrence Eagles</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
