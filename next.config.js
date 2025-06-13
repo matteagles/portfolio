@@ -7,4 +7,14 @@ module.exports = {
   images: {
     domains: ['res.cloudinary.com', 'media.dev.to']
   }
+  // images: {
+  //   remotePatterns: [
+  //     {
+  //       protocol: 'https',
+  //       hostname: 'media.dev.to',
+  //       port: '',
+  //       pathname: '/account123/**',
+  //     },
+  //   ],
+  // },
 }
