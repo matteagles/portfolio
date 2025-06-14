@@ -15,9 +15,9 @@ export const techwriting = [
   },
   {
     id: 3,
-    title: "Stepsize",
-    profile: "https://www.stepsize.com/blog/10-must-know-patterns-for-writing-clean-code-with-react-and-typescript",
+    title: "Daily.dev",
+    profile: "https://app.daily.dev/lawrence_eagles/posts",
     role: "Tech Writer",
-    author: "Stepsize Author Profile"
+    author: "Daily.dev Author Profile"
   }
 ]
