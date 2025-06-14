@@ -2,6 +2,7 @@
 
 import { experiences } from "@/utils/data/experience";
 import Image from "next/image";
+import Link from "next/link";
 import { BsPersonWorkspace } from "react-icons/bs";
 import AnimationLottie from "../../helper/animation-lottie";
 import GlowCard from "../../helper/glow-card";
@@ -40,6 +41,7 @@ function Experience() {
             <div className="flex flex-col gap-6">
               {
                 experiences.map(experience => (
+                  <Link target="_blank" href={`${experience.profile}`}>
                   <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
                     <div className="p-3 relative">
                       <Image
@@ -69,6 +71,7 @@ function Experience() {
                       </div>
                     </div>
                   </GlowCard>
+                  </Link>
                 ))
               }
             </div>
