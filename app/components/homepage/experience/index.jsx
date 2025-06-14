@@ -41,8 +41,8 @@ function Experience() {
             <div className="flex flex-col gap-6">
               {
                 experiences.map(experience => (
-                  <Link target="_blank" href={`${experience.profile}`}>
-                  <GlowCard key={experience.id} identifier={`experience-${experience.id}`}>
+                  <Link key={experience.id} target="_blank" href={`${experience.profile}`}>
+                  <GlowCard identifier={`experience-${experience.id}`}>
                     <div className="p-3 relative">
                       <Image
                         src="/blur-23.svg"
