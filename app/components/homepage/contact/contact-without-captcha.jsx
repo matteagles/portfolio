@@ -57,16 +57,16 @@ function ContactWithCaptcha() {
     const publicKey = process.env.NEXT_PUBLIC_EMAILJS_PUBLIC_KEY;
 
     try {
-      const res = await emailjs.send(serviceID, templateID, input, publicKey);
-
-      if (res.status === 200) {
-        toast.success('Message sent successfully!');
-        setInput({
+      setInput({
           name: '',
           email: '',
           message: '',
         });
-      };
+        
+      const res = await emailjs.send(serviceID, templateID, input, publicKey);
+
+      if (res.status === 200)  toast.success('Message sent successfully!');
+      
     } catch (error) {
       toast.error(error?.text || error);
     };
