@@ -9,8 +9,8 @@ import './css/globals.scss';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata = {
-  title: 'Matt Acedev - Software Developer',
-  description: 'This is Matthew Acedev. I am a full-stack developer, skilled tech writer and instructor',
+  title: 'Lawrenceagles - Software Developer',
+  description: 'This is Lawrence Eagles. I am a full-stack developer, skilled tech writer and instructor',
 };
 
 export default function RootLayout({ children }) {
