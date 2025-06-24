@@ -1,8 +1,8 @@
 export const contactsData = {
-    email: 'code.matt.eagles@gmail.com',
-    phone: '+2349136151655',
-    github: 'https://github.com/matteagles',
-    linkedIn: 'https://www.linkedin.com/in/matteagles/',
-    twitter: 'https://twitter.com/#',
-    devusername: "matteagles"
-}
+  email: "codewitheagles247@gmail.com",
+  phone: "+2349035052256",
+  github: "https://github.com/lawrence-eagles",
+  linkedIn: "https://www.linkedin.com/in/lawrenceagles/",
+  twitter: "https://twitter.com/#",
+  devusername: "lawrenceagles",
+};
