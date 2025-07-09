@@ -11,7 +11,7 @@ export const personalData = {
   linkedIn: "https://www.linkedin.com/in/lawrenceagles/",
   devUsername: "lawrence_eagles",
   resume:
-    "https://drive.google.com/file/d/1gRZphdDa64o4gHGuJ7QZ_E3NPWvpVS46/view?usp=sharing",
+    "https://drive.google.com/file/d/1gkZz__nGLtF977llcGggeOZLyfAiX1R8/view?usp=sharing",
   address: "Nigeria",
   facebook: "#",
   twitter: "#",
